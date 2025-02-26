@@ -48,3 +48,8 @@ h2 {
 .card {
   border-radius: 10px;
 }
+
+custom-div-min-300 {
+  min-width: 300px;
+  padding: 10px;
+}

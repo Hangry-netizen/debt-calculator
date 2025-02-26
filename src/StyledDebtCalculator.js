@@ -46,7 +46,7 @@ function DebtCalculator() {
     <div className="container mt-5">
       <h2 className="text-center mb-4">Debt Payment Calculator</h2>
       <div class="d-flex justify-content-center align-items-center">
-        <form className="card w-50 border rounded p-4 shadow-sm bg-light" onSubmit={calculateDebt}>
+        <form className="card col-9 col-md-4 border rounded p-3 shadow-sm bg-light" onSubmit={calculateDebt}>
             <div className="mb-3">
             <label className="form-label">Amount Owed ($)</label>
             <input
@@ -59,7 +59,7 @@ function DebtCalculator() {
             </div>
 
             <div className="mb-3">
-            <label className="form-label">Interest Rate (%)</label>
+            <label className="form-label">Interest Rate in % (APR)</label>
             <input
                 type="number"
                 className="form-control"
